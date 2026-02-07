@@ -15,6 +15,7 @@ body {
 .document {
     max-width: 210mm;
     margin: 0 auto;
+    padding: 10mm;
     background-color: #fff;
 }
 

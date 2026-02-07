@@ -16,7 +16,7 @@ body {
 .document {
     max-width: 210mm;
     margin: 0 auto;
-    /* padding: 20mm; */
+    padding: 10mm;
     background-color: #fff;
 }
 
