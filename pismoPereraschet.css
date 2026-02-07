@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000;
+    background-color: #fff;
+    padding: 10mm;
+}
+
+.document {
+    max-width: 210mm;
+    margin: 0 auto;
+    /* padding: 20mm; */
+    background-color: #fff;
+}
+
+/* Заголовок */
+.header h1 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    letter-spacing: 1.5px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+
+.subtitle-small {
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    margin: 10px 0 20px 0;
+}
+
+/* Получатель и отправитель */
+.recipient,
+.sender,
+.house-manager {
+    margin-bottom: 8px;
+}
+
+.recipient p,
+.sender p,
+.house-manager p {
+    margin-bottom: 3px;
+}
+
+.recipient {
+    margin-bottom: 25px;
+}
+
+.sender {
+    margin-bottom: 10px;
+}
+
+.house-manager {
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+
+/* Заголовки разделов */
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px 0 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3.demand {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 25px 0 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Списки */
+ol {
+    margin-left: 25px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+
+ol li {
+    margin-bottom: 8px;
+    text-align: justify;
+}
+
+p {
+    margin-bottom: 12px;
+    text-align: justify;
+    text-indent: 1.25cm;
+}
+
+p:first-child {
+    text-indent: 0;
+}
+
+/* Таблицы */
+.calculation-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 13px;
+    table-layout: fixed;
+}
+
+.calculation-table th,
+.calculation-table td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.calculation-table th {
+    font-weight: bold;
+    background-color: #f9f9f9;
+}
+
+.calculation-table td:first-child,
+.calculation-table th:first-child {
+    width: 10%;
+}
+
+.calculation-table td:nth-child(2),
+.calculation-table th:nth-child(2) {
+    width: 45%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.calculation-table td:nth-child(3),
+.calculation-table th:nth-child(3),
+.calculation-table td:nth-child(4),
+.calculation-table th:nth-child(4) {
+    width: 22.5%;
+}
+
+.total-row td {
+    font-weight: bold;
+    background-color: #f5f5f5;
+}
+
+.calculation-result {
+    text-align: justify;
+    text-indent: 1.25cm;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+/* Подпись */
+.signature-block {
+    margin-top: 40px;
+    text-align: right;
+}
+
+.signature-line {
+    margin-top: 30px;
+}
+
+.signature-underline {
+    display: inline-block;
+    width: 100%;
+    min-width: 350px;
+    border-bottom: 1px solid #000;
+    padding-top: 5px;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+/* Отступы для абзацев после таблиц */
+table + p {
+    text-indent: 1.25cm;
+}
+
+/* Убираем отступ для первого абзаца после заголовка */
+h2 + .subtitle-small + p {
+    text-indent: 1.25cm;
+}
+
+/* Особое форматирование для выделенных слов */
+strong {
+    font-weight: bold;
+}
+
+/* Отступы между блоками */
+.house-manager + h2 {
+    margin-top: 15px;
+}
