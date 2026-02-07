@@ -10,14 +10,14 @@ body {
     line-height: 1.5;
     color: #000;
     background-color: #fff;
-    padding: 20px;
+    /* padding: 10px; */
 }
 
 .document {
     max-width: 600mm;
     width: 100%;
     margin: 0 auto;
-    padding: 20mm;
+    padding: 10mm;
     background-color: #fff;
 }
 
