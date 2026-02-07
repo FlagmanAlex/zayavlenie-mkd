@@ -17,7 +17,7 @@ body {
     max-width: 600mm;
     width: 100%;
     margin: 0 auto;
-    padding: 10mm;
+    /* padding: 10mm; */
     background-color: #fff;
 }
 
